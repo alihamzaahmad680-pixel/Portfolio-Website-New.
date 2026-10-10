@@ -589,7 +589,7 @@ const Skills = () => {
                 {cat.skills.map((skill, index) => (
                   <div key={index} className="space-y-2">
                     
-                    {/* SKILL TITLE, ICON & PERCENTAGE with*/}
+                    {/* SKILL TITLE, ICON & PERCENTAGE */}
                     <div className="flex justify-between items-center">
                       <div className="flex items-center gap-3">
                         <span className={`text-xl sm:text-2xl ${skill.color} p-1.5 rounded-xl bg-white/[0.04] border border-white/10 shadow-sm`}>
