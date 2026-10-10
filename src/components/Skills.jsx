@@ -584,7 +584,7 @@ const Skills = () => {
                 </p>
               </div>
 
-              {/* SKILLS PROGRESS complete BARS */}
+              {/* SKILLS PROGRESS BARS */}
               <div className={`space-y-6 ${catIdx === 2 ? "grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-6 space-y-0" : ""}`}>
                 {cat.skills.map((skill, index) => (
                   <div key={index} className="space-y-2">
