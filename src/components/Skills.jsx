@@ -610,7 +610,7 @@ const Skills = () => {
                       </div>
                     </div>
 
-                    {/* ANIMATED PROGRESS BAR TRACK */}
+                    ANIMATED PROGRESS BAR TRACK
                     <div className="w-full h-2.5 bg-black/40 rounded-full overflow-hidden p-0.5 border border-white/5 relative">
                       <motion.div
                         initial={{ width: 0 }}
