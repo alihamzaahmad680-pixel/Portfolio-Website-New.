@@ -672,7 +672,6 @@ const Projects = () => {
                 </div>
               </div>
 
-              {/* ACTION BUTTONS FOOTER */}
               <div className="p-6 pt-0 flex gap-3">
                 <a
                   href={project.live}
