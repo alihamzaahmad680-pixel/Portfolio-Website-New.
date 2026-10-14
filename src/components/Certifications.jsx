@@ -545,6 +545,7 @@ const Certifications = () => {
                   </p>
                 </div>
 
+              
                 <div className="pt-5 border-t border-white/10 flex items-center justify-between">
                   <div className="flex items-center gap-2">
                     <span className="relative flex h-2.5 w-2.5">
