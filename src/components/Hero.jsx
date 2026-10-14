@@ -497,7 +497,7 @@ const Hero = () => {
                 />
               </motion.div>
 
-              FLOATING BADGE 1: REACT FRONTEND
+              {/* FLOATING BADGE 1: REACT FRONTEND */}
               <motion.div
                 animate={{ y: [0, 8, 0] }}
                 transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
