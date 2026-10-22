@@ -674,7 +674,15 @@ const Projects = () => {
 
               {/* ACTION BUTTONS FOOTER */}
               <div className="p-6 pt-0 flex gap-3">
-              
+                <a
+                  href={project.live}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex-1 flex items-center justify-center gap-2 py-2.5 bg-emerald-500 hover:bg-emerald-400 text-gray-950 rounded-xl text-xs sm:text-sm font-bold transition duration-300 shadow-[0_0_20px_rgba(16,185,129,0.25)] hover:shadow-[0_0_25px_rgba(16,185,129,0.4)] group/btn cursor-pointer"
+                >
+                  <FaExternalLinkAlt className="text-xs group-hover/btn:translate-x-0.5 transition-transform" />
+                  <span>Live Demo</span>
+                </a>
 
                 <a
                   href={project.github}
