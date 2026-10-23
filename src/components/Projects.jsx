@@ -674,7 +674,14 @@ const Projects = () => {
 
               {/* ACTION BUTTONS FOOTER */}
               <div className="p-6 pt-0 flex gap-3">
-              
+                <
+
+                <a
+                  href={project.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex-1 flex items-center justify-center gap-2 py-2.5 border border-white/20 hover:border-emerald-500/60 hover:bg-emerald-500/10 text-gray-300 hover:text-white rounded-xl text-xs sm:text-sm font-semibold transition duration-300 cursor-pointer"
+                >
                   <FaGithub className="text-sm" />
                   <span>GitHub</span>
                 </a>
