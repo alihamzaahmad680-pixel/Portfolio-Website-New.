@@ -688,7 +688,7 @@ const Projects = () => {
               </div>
             </motion.div>
           ))}
-       
+        </motion.div>
 
       </div>
     </section>
