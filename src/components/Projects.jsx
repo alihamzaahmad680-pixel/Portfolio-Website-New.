@@ -685,12 +685,7 @@ const Projects = () => {
                   <FaGithub className="text-sm" />
                   <span>GitHub</span>
                 </a>
-              </div>
-            </motion.div>
-          ))}
-        </motion.div>
-
-      </div>
+          
     </section>
   );
 };
